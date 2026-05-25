@@ -1,0 +1,104 @@
+:root {
+  color: #1f2933;
+  background: #f4f7f9;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input,
+textarea {
+  letter-spacing: 0;
+}
+
+.login-shell {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  background:
+    linear-gradient(135deg, rgba(29, 95, 138, 0.16), rgba(67, 116, 95, 0.14)),
+    #f4f7f9;
+  padding: 32px 0;
+}
+
+.login-panel {
+  padding: 32px;
+}
+
+.app-shell {
+  min-height: 100vh;
+  background: #f4f7f9;
+}
+
+.app-toolbar {
+  min-height: 72px;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.content-container {
+  padding-top: 32px;
+  padding-bottom: 48px;
+}
+
+.courses-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 380px);
+  gap: 24px;
+  align-items: start;
+}
+
+.courses-list {
+  min-width: 0;
+}
+
+.course-form-panel {
+  position: sticky;
+  top: 24px;
+  padding: 24px;
+}
+
+.state-box {
+  display: flex;
+  min-height: 220px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  border: 1px dashed #b6c5cf;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 32px;
+  text-align: center;
+}
+
+@media (max-width: 860px) {
+  .courses-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .course-form-panel {
+    position: static;
+  }
+}
+
+@media (max-width: 600px) {
+  .login-panel {
+    padding: 24px;
+  }
+
+  .app-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+}
