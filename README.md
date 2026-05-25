@@ -132,13 +132,13 @@ https://pi2tools.icesi.edu.co/iaslab/compu2/AMB/
 En Vite y React Router se configura solo la subruta, porque el dominio lo aporta el servidor donde se despliega:
 
 ```txt
-/iaslab/compu2/AMB/
+/iaslab/compu2/A00404072/
 ```
 
 Para probar el build local con preview, abrir:
 
 ```txt
-http://localhost:4173/iaslab/compu2/AMB/
+http://localhost:4173/iaslab/compu2/A00404072/
 ```
 
 Si el profesor asigna otra subruta, actualizar el valor en:
