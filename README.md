@@ -8,7 +8,7 @@ Proyecto full stack basado en los ejemplos del profesor. Incluye un frontend Rea
 - Java 17 o superior.
 - Backend Spring Boot en `auth/`.
 - Frontend React en la raiz del proyecto.
-- API disponible en `http://localhost:8080/auth`.
+- API disponible en `http://localhost:8089/auth`.
 - Endpoints esperados:
   - `POST /api/auth/login`
   - `GET /api/courses`
@@ -65,7 +65,7 @@ Ejecutar en Linux/macOS:
 El backend queda disponible en:
 
 ```txt
-http://localhost:8080/auth
+http://localhost:8089/auth
 ```
 
 Credenciales iniciales:
@@ -126,7 +126,7 @@ npm run preview
 La aplicacion esta configurada para publicarse en un dominio `.icesi.edu.co`, por ejemplo:
 
 ```txt
-https://pi2tools.icesi.edu.co/iaslab/compu2/AMB/
+https://pi2tools.icesi.edu.co/iaslab/compu2/A00404072/
 ```
 
 En Vite y React Router se configura solo la subruta, porque el dominio lo aporta el servidor donde se despliega:
